@@ -154,7 +154,7 @@ void TX_Setup(void){
     // payload width for data pipe 0, 1 byte to test
     nRF_WriteByte(RX_PW_P0, 0x01);  
 
-    // disable interrupts, power up, then set as tx, 0b01111010=0x7A
+    //power up, then set as tx, 0b00001010=0x0A
     nRF_WriteByte(NRF_CONFIG, 0x0A);
 
     _delay_us(1500);  // power down -> standby, max 1.5 ms
@@ -188,7 +188,7 @@ void RX_Setup(void){
     // payload width for data pipe 0, 1 byte to test
     nRF_WriteByte(RX_PW_P0, 0x01);  
 
-    // disable TX interrupts, power up, then set as rx, 0b01111011=0x7B
+    // power up, then set as RX, 0b00001011=0x0B
     nRF_WriteByte(NRF_CONFIG, 0x0B);
 
     _delay_us(1500);  // power down -> standby, max 1.5 ms
