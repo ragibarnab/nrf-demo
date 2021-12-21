@@ -16,8 +16,6 @@ documentation, view the [datasheet](https://www.sparkfun.com/datasheets/Componen
 <div style="text-align:center"><img src="https://image.pushauction.com/0/0/9d5737cf-1a8d-4335-8999-1e263f97a4d9/4c809ec5-6df4-472e-a03a-06cca0cc4c3d.jpg" width="300" height="300"></div>
 
 ## demonstration
-The demo shows me pressing a button on the transmitter board (left) that triggers an LED on the receiver board (left) wirelessly using the modules. Note that I had to use
-voltage regulators on the left side of each board to bring down the 9V down to 5V and 3.3V for the ATmega328P and the nRF24L01, respectively. Otherwise, the wiring on the 
-board is simple and self-explanatory. <br>
+The demo shows me pressing a button on the transmitter board (left) that triggers an LED on the receiver board (left) wirelessly using the modules. <br>
 
 <img src="nrf_demo.gif" align="center">
